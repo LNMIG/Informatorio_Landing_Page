@@ -19,43 +19,119 @@
     <!-- Custom Fonts -->
     <link href="" rel="stylesheet" type="text/css">
     <link href="" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css">
 
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="container_nav" role="navigation">
-        <ul class="container_list">
-            <li>
-                <a href="#about">Sobre mi</a>
-            </li>
-            <li>
-                <a href="#services">Servicios</a>
-            </li>
-            <li>
-                <a href="#contact">Contacto</a>
-            </li>
-        </ul>
-    </nav>
-
-
-    <div class="container_main">
-        <h1>Landing Page</h1>
-        <h3>Luis Migliore</h3>
+    <!-- Main start-->
+    <div class="container_title">
+        <h1>Bienvenido a Mi Landing Page</h1>
+        <h3>¡Gracias por visitar nuestra página! Aquí encontrarás información sobre nuestros productos y servicios</h3>
         <hr>
-        <ul class="main_list">
+    </div>
+    <!-- Main end-->
+
+    <!-- Form start-->
+    <form
+      action=""
+      method=""
+      class="container_form"
+    >
+
+      <h4>¡Regístrate!</h4>
+      <span  class="">
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            value="firstname"
+            class=""
+          >
+          <label
+            for="firstname"
+            class=""
+          >
+            Nombre
+          </label>
+       </span>
+
+      <span  class="">
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            value="lastname"
+            class=""
+          >
+          <label
+            for="lastname"
+            class=""
+          >
+            Apellido
+          </label>
+       </span>
+
+      <span  class="">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            value="email"
+            class=""
+          >
+          <label
+            for="email"
+            class=""
+          >
+            Email
+          </label>
+       </span>
+
+      <span>
+          <input
+            type="submit"
+            value="¡Regístrate!"
+            class=""
+          >
+      </span>
+
+    </form>
+    <!-- Form end-->
+
+    <!-- Content start-->
+    <div class="container_body">
+      <h4>Descubre los 3 increibles beneficios de comprar anteojos en nuestra tienda</h4>
+        <ul class="">
             <li>
-                <a href="https://lnmig.github.io/MyPortFolio/" target="_blank"><span class="">Portfolio</span></a>
+                <span class="">Comodidad y conveniencia</span>
             </li>
             <li>
-                <a href="https://github.com/LNMIG" target="_blank"></i> <span class="">Github</span></a>
+                <span class="">Mayor variedad de opciones</span>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/engineer-luis-migliore" target="_blank"><span class="">Linkedin</span></a>
+                <span class="">Ofertas Especiales</span>
             </li>
         </ul>
     </div>
+    <!-- Content end-->
+
+    <!-- Footer start -->
+    <footer class="container_footer">
+      <span class="footer_wraper">
+        <h4>Síguenos en redes sociales</h4>
+        <span class="container_footer_social">
+          <span class="social_left">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+          </span>
+          <p>Derechos de autor © 2023</p>
+        </span>
+      </span>
+    </footer>
+    <!-- Footer end -->
 
 </body>
 
